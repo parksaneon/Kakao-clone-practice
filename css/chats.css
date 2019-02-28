@@ -1,0 +1,10 @@
+.chats .chat-list{border-top:1px solid #ebebeb;border-bottom:1px solid #ebebeb;}
+.chat-list .chats-chat{padding:15px;border-top:1px solid #ebebeb;}
+.chat-list .chats-chat:last-child{border:none;}
+.chats-chat .chat-content img{width:50px;border-radius:50%;margin:0 15px 0 0;}
+.chat-list .chats-chat a{display:flex;justify-content:space-between;text-decoration:none;color:inherit;}
+.chats-chat .chat-content{display:flex;align-items:flex-start;}
+.chat-preview .chat-user{font-weight:600;margin:0 0 5px 0;}
+.chat-preview .chat-last-message{color:#b4b4b4;font-size:11px;}
+.chats-chat .chat-date-time{font-size:10px;color:#b4b4b4;}
+.chat-btn{width:60px;height:60px;border-radius:50%;background:#ffe94a;display:flex;justify-content:center;align-items:center;position:fixed;right:20px;bottom:80px;font-size:20px;color:#523737;box-shadow:1px 1px 10px rgba(0,0,0,0.2);}
