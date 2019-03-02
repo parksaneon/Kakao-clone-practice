@@ -1,0 +1,10 @@
+.top-header-transparent{background-color:transparent;}
+.profile .profile-header{height:80vh;background:url(http://www.bluthemes.com/themes/calypso/wp-content/uploads/sites/17/2015/01/101.jpg);background-repeat:no-repeat;background-position:center left;background-size:cover; width:100%;position:relative;top:-60px;display:flex;justify-content:flex-end;align-items:center;flex-direction:column;}
+.profile-header-container{text-align:center;position:relative;bottom:-60px;}
+.profile-header-container img{width:100px;border-radius:50%;margin:0 0 10px 0;} 
+.profile .profile-container{display:flex;flex-direction:column;align-items:center;margin:20px 0 0 0;}
+.profile-container input{padding:5px;margin:0 0 20px 0;}
+.profile-actions{display:flex;}
+.profile-action{display:flex;flex-direction:column;align-items:center;margin:0 15px 0 0;cursor:pointer;}
+.profile-circle{background:#f2f2f2;padding:15px;border-radius:50%;color:#523737;margin:0 0 15px 0;}
+.profile-action-title{font-weight:600;font-size:10px;}
