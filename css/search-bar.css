@@ -1,4 +1,4 @@
 .search-bar{padding:5px 25px;position:relative;}
-.search-bar input{width:100%;padding:10px 7px;box-sizing:border-box;border-radius:5px;background:#f1f2f3;font-size:13px;text-align:center;}
+.search-bar input{width:100%;padding:10px 7px;box-sizing:border-box;border-radius:5px;background:#f1f2f3;font-size:13px;text-align:center;transition:border 0.5s linear;}
 .search-bar i{position:absolute;color:#bbb;top:15px;left:40px;}
-.search-bar input:focus{outline:none;}
+.search-bar input:focus{outline:none;border:1px solid #ffe94e;}

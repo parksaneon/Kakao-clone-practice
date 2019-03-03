@@ -1,6 +1,18 @@
 .friends-section .friends-header{border-top:1px solid #ebebeb;border-bottom:1px solid #ebebeb;padding:10px 15px;font-size:12px;color:#0e0e0e;}
 .friends-section-rows .friends-section-row{padding:10px 0;display:flex;align-items:center;font-size:14px;}
 .friends-section-row.tagline{justify-content:space-between;background:#f0f0f0;padding:10px 5px;border-radius:5px;color:#939393;}
-.friends-section-row img{width:40px;border-radius:50%;margin:0 15px 0 0;}
+.friends-section-row img{width:40px;border-radius:50%;margin:0 15px 0 ;animation:1s rotateFriends ease-in-out;}
 .friends-section-row a{text-decoration:none;color:black;}
 .friends-section-colum{display:flex;align-items:center;}
+
+@keyframes rotateFriends {
+  0%{
+    transform:rotateY(0deg);
+  }
+  50%{
+    transform:rotateY(180deg) scale(0.5);
+  }
+  100%{
+    transform:rotateY(360deg);
+  }
+}
